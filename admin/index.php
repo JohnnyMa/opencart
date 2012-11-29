@@ -23,6 +23,7 @@ require_once(DIR_SYSTEM . 'library/length.php');
 // Registry
 $registry = new Registry();
 
+// var_dump($registry);die;
 // Loader
 $loader = new Loader($registry);
 $registry->set('load', $loader);
